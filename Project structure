@@ -1,0 +1,20 @@
+syntriva-ecosystem/
+  package.json
+  next.config.mjs
+  postcss.config.mjs
+  tailwind.config.mjs
+  tsconfig.json
+  app/
+    layout.tsx
+    globals.css
+    components/
+      Navbar.tsx
+      Footer.tsx
+      SectionShell.tsx
+      CardGrid.tsx
+    page.tsx
+    ecosystem/page.tsx
+    blueprints/page.tsx
+    income/page.tsx
+    contact/page.tsx
+    favicon.ico
