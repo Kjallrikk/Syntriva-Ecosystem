@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-syntrivaBg text-slate-100 antialiased;
+}
+
+.container-core {
+  @apply mx-auto max-w-6xl px-4;
+}
+
+.card {
+  @apply bg-syntrivaCard/80 border border-slate-800 rounded-2xl p-6 shadow-lg;
+}
